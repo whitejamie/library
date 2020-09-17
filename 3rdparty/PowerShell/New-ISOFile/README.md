@@ -3,12 +3,12 @@ Powershell script to create an .iso file of a directory. From Microsoft TechNet 
 
 Message on website 2020-09-17 "We are retiring the TechNet Gallery. Make sure to back up your code.". 
 
-# Description from original source
+## Description from original source
 2016-03-25 "This PowerShell function uses IMAPI COM objects to create .iso files.
 Without using any external utilities/files, this function can wrap files and folders into an .iso file. Bootable images can also be created with the support of etfsboot.com, which can be commonly found in Windows AIK. The function can add multiple files/folders into the .iso image in a single session, and can accept pipeline input.
 Some of the source code referenced http://tools.start-automating.com/Install-ExportISOCommand/, but the functionality is wrapped in such a way that it supports better pipeline processing."
 
-# Example use:
+## Example use:
 1. Register this function, run:
 ```
 . .\Create-ISO.ps1
